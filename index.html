@@ -23,6 +23,9 @@
                   background-size: cover;
 
             }
+            .primary-text-color{
+                 color: rgba(18, 18, 18, 0.60) ;
+            }
       </style>
 </head>
 
@@ -30,18 +33,18 @@
      <header class="bg-white lg:bg-[#F85559] w-10/12 mx-auto rounded-full">
       <nav class="flex items-center justify-between pt-2  md:px-0 md:py-2 lg:px-14 lg:py-4">
             <ul class="hidden  lg:flex text-white gap-5 text-">
-                  <li>Home</li>
-                  <li>About Us</li>
-                  <li>Shop</li>
-                  <li>All Fruits</li>
+                  <li class="cursor-pointer">Home</li>
+                  <li class="cursor-pointer">About Us</li>
+                  <li class="cursor-pointer">Shop</li>
+                  <li class="cursor-pointer">All Fruits</li>
             </ul>
             <div class="flex items-center gap-1 lg:gap-3">
                   <img class="w-[35px] lg:w-12" src="images/logo.png" alt="">
                   <h1 class="text-[17px] lg:text-white lg:text-2xl font-bold">Fruit Burst</h1>
             </div>
             <div class="bg-white hidden lg:block px-3 py-1 rounded-full">
-                  <input class="relative" type="text" placeholder="Search here">
-                  <i class="fa fa-search"></i>
+                  <input class="relative outline-none" type="text" placeholder="Search here">
+                  <i class="fa fa-search cursor-pointer"></i>
             </div>
             <div class="block lg:hidden">
                   <i class="fa fa-bars text-black lg:text-white text-2xl" aria-hidden="true">
@@ -51,9 +54,9 @@
       </nav>
      </header>
       <!-- -------------exotic section------------- -->
-      <section class="w-10/12 h-auto mx-auto my-10 ">
+      <section class="w-10/12 h-auto mx-auto my-10  ">
 
-            <div class="carousel  w-full relative ">
+            <div class="carousel  w-full relative rounded-xl">
                   <div id="slide1" class="carousel-item relative  w-full">
                         <div class="w-full h-full bg-[#000000ec]">
                               <img src="images/banner1.png" class="w-full min-h-[200px]" />
@@ -125,39 +128,39 @@
             </div>
 
       </section>
-      <!-- -----------------position section---------------- -->
+      <!-- -----------------position and bonus section---------------- -->
       <section class="w-10/12 mx-auto">
             <div
                   class="hidden md:flex gap-3 justify-between bg-white rounded-md mx-20 shadow-md px-6 py-8 relative md:bottom-24 lg:bottom-36">
 
                   <div>
                         <img src="images/fruit1.png" alt="">
-                        <p class="text-center">Grapes</p>
+                        <p class="text-center primary-text-color">Grapes</p>
                   </div>
                   <div>
                         <img src="images/fruit2.png" alt="">
-                        <p class="text-center">Orange</p>
+                        <p class="text-center primary-text-color ">Orange</p>
                   </div>
                   <div>
                         <img src="images/fruit3.png" alt="">
-                        <p class="text-center">Mango</p>
+                        <p class="text-center primary-text-color">Mango</p>
                   </div>
                   <div>
                         <img src="images/fruit4.png" alt="">
-                        <p class="text-center">Strawberry</p>
+                        <p class="text-center primary-text-color">Strawberry</p>
                   </div>
                   <div>
                         <img src="images/fruit5.png" alt="">
-                        <p class="text-center">Mango</p>
+                        <p class="text-center primary-text-color">Mango</p>
                   </div>
 
             </div>
       </section>
       <!-- --------------time section------------- -->
       <section class="w-10/12 mx-auto flex flex-col md:flex-row items-center gap-10 py-10">
-            <div class="lg:pr-72">
-                  <h1 class="text-3xl font-bold">Deal of the day</h1>
-                  <p class="pt-5">Contrary to popular belief, is not simply random text. It has roots in a piece of
+            <div class=" lg:pr-72">
+                  <h1 class="text-3xl font-bold text-center lg:text-left">Deal of the day</h1>
+                  <p class="pt-5 text-center lg:text-left primary-text-color">Contrary to popular belief, is not simply random text. It has roots in a piece of
                         classical Latin literature from 45 BC, making it over 2000 years old.</p>
             </div>
             <div class="flex gap-2 lg:gap-8">
@@ -166,28 +169,28 @@
                               <h1 class="text-4xl font-bold">29</h1>
                               <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                         </div>
-                        <p>Days</p>
+                        <p class="primary-text-color">Days</p>
                   </div>
                   <div>
                         <div class="flex items-center gap-5 lg:gap-8">
                               <h1 class="text-4xl font-bold">15</h1>
                               <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                         </div>
-                        <p>Days</p>
+                        <p class="primary-text-color">Hours</p>
                   </div>
                   <div>
                         <div class="flex items-center gap-5 lg:gap-8">
                               <h1 class="text-4xl font-bold">25</h1>
                               <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                         </div>
-                        <p>Days</p>
+                        <p class="primary-text-color">Minutes</p>
                   </div>
                   <div>
                         <div class="flex items-center gap-8">
                               <h1 class="text-4xl font-bold">08</h1>
 
                         </div>
-                        <p>Days</p>
+                        <p class="primary-text-color">Seconds</p>
                   </div>
             </div>
       </section>
@@ -197,7 +200,7 @@
                   <div class="border text-center px-8 py-7">
                         <img class="m-auto" src="images/fruit6.png" alt="">
                         <h1 class="text-xl font-bold border-b pb-2">12.90$ - 18.85$</h1>
-                        <p class="py-3">Apples</p>
+                        <p class="py-3 primary-text-color">Apples</p>
                         <div class="pb-4">
                               <i class="fa fa-star text-[#F85559]" aria-hidden="true"></i>
                               <i class="fa fa-star-half-o text-[#F85559]" aria-hidden="true"></i>
@@ -211,8 +214,8 @@
                               <dialog id="my_modal_1" class="modal  modal-top sm:modal-middle">
                                     <form method="dialog" class="modal-box">
                                           <img class="mx-auto max-h-48 " src="images/fruit6.png" alt="">
-                                          <h3 class="font-bold text-lg">Apple</h3>
-                                          <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                                          <h3 class="font-bold text-lg ">Apple</h3>
+                                          <p class="py-4 primary-text-color">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                                           <div class="pb-4 ">
                                                 <i class="fa fa-star text-[#F85559]" aria-hidden="true"></i>
                                                 <i class="fa fa-star-half-o text-[#F85559]" aria-hidden="true"></i>
@@ -222,7 +225,7 @@
                                           </div>
                                           <div class="">
                                                 <!-- if there is a button in form, it will close the modal -->
-                                                <button class="btn">Close</button>
+                                                <button class="btn bg-white text-[#F85559] border-red-500">Close</button>
                                                 <button class="bg-[#F85559] text-white px-3 rounded-md py-3">Buy Now</button>
                                           </div>
                                     </form>
@@ -232,7 +235,7 @@
                   <div class="border text-center px-8 py-7">
                         <img class="m-auto" src="images/fruit7.png" alt="">
                         <h1 class="text-xl font-bold border-b pb-2">12.90$ - 18.85$</h1>
-                        <p class="py-3">Orange</p>
+                        <p class="py-3 primary-text-color">Orange</p>
                         <div class="pb-4">
                               <i class="fa fa-star text-[#F85559]" aria-hidden="true"></i>
                               <i class="fa fa-star-half-o text-[#F85559]" aria-hidden="true"></i>
@@ -247,7 +250,7 @@
                                     <form method="dialog" class="modal-box">
                                           <img class="mx-auto max-h-48 py-5" src="images/fruit7.png" alt="">
                                           <h3 class="font-bold text-lg">Orange</h3>
-                                          <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                                          <p class="py-4 primary-text-color">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                                           <div class="pb-4 ">
                                                 <i class="fa fa-star text-[#F85559]" aria-hidden="true"></i>
                                                 <i class="fa fa-star-half-o text-[#F85559]" aria-hidden="true"></i>
@@ -257,7 +260,7 @@
                                           </div>
                                           <div class="">
                                                 <!-- if there is a button in form, it will close the modal -->
-                                                <button class="btn">Close</button>
+                                                <button class="btn bg-white text-[#F85559] border-red-500">Close</button>
                                                 <button class="bg-[#F85559] text-white px-3 rounded-md py-3">Buy Now</button>
                                           </div>
                                     </form>
@@ -267,7 +270,7 @@
                   <div class="border text-center px-8 py-7">
                         <img class="m-auto" src="images/fruit8.png" alt="">
                         <h1 class="text-xl font-bold border-b pb-2">12.90$ - 18.85$</h1>
-                        <p class="py-3">Red Dragon</p>
+                        <p class="py-3 primary-text-color">Red Dragon</p>
                         <div class="pb-4">
                               <i class="fa fa-star text-[#F85559]" aria-hidden="true"></i>
                               <i class="fa fa-star-half-o text-[#F85559]" aria-hidden="true"></i>
@@ -282,7 +285,7 @@
                                     <form method="dialog" class="modal-box">
                                           <img class="mx-auto max-h-48 py-5" src="images/fruit8.png" alt="">
                                           <h3 class="font-bold text-lg">Red Dragon</h3>
-                                          <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                                          <p class="py-4 primary-text-color">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                                           <div class="pb-4 ">
                                                 <i class="fa fa-star text-[#F85559]" aria-hidden="true"></i>
                                                 <i class="fa fa-star-half-o text-[#F85559]" aria-hidden="true"></i>
@@ -292,7 +295,7 @@
                                           </div>
                                           <div class="">
                                                 <!-- if there is a button in form, it will close the modal -->
-                                                <button class="btn">Close</button>
+                                                <button class="btn bg-white text-[#F85559] border-red-500">Close</button>
                                                 <button class="bg-[#F85559] text-white px-3 rounded-md py-3">Buy Now</button>
                                           </div>
                                     </form>
@@ -302,7 +305,7 @@
                   <div class="border text-center px-8 py-7">
                         <img class="m-auto" src="images/fruit9.png" alt="">
                         <h1 class="text-xl font-bold border-b pb-2">12.90$ - 18.85$</h1>
-                        <p class="py-3">Banana</p>
+                        <p class="py-3 primary-text-color">Banana</p>
                         <div class="pb-4">
                               <i class="fa fa-star text-[#F85559]" aria-hidden="true"></i>
                               <i class="fa fa-star-half-o text-[#F85559]" aria-hidden="true"></i>
@@ -317,7 +320,7 @@
                                     <form method="dialog" class="modal-box">
                                           <img class="mx-auto max-h-48 py-5" src="images/fruit9.png" alt="">
                                           <h3 class="font-bold text-lg">Banana</h3>
-                                          <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                                          <p class="py-4 primary-text-color">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                                           <div class="pb-4 ">
                                                 <i class="fa fa-star text-[#F85559]" aria-hidden="true"></i>
                                                 <i class="fa fa-star-half-o text-[#F85559]" aria-hidden="true"></i>
@@ -327,7 +330,7 @@
                                           </div>
                                           <div class="gap-3">
                                                 <!-- if there is a button in form, it will close the modal -->
-                                                <button class="btn">Close</button>
+                                                <button class="btn bg-white text-[#F85559] border-red-500">Close</button>
                                                 <button class="bg-[#F85559] text-white px-3 rounded-md py-3">Buy Now</button>
                                           </div>
                                     </form>
@@ -338,7 +341,8 @@
             </div>
             <button class=" mx-auto block mb-10 bg-[#F85559] text-white py-2 px-7 rounded-md">Shop All</button>
       </section>
-      <!-- ----------team section------------- -->
+      <!-- -----------------------team section------------------------------ -->
+
       <section class="background bg-opacity-10 w-10/12 mx-auto rounded-md">
             <div class="w-full h-full bg-[#00000085]">
                   <div class="text-white text-center py-10">
@@ -353,11 +357,11 @@
                               <h1 class="text-white text-xl pt-3">Awlad Hossain</h1>
                               <p class="text-white">Fruits Expert</p>
                               <div class="flex gap-2 justify-center py-3">
-                                    <div class="bg-[#F85559] py-1 px-3 rounded-full"><i
-                                                class="fa fa-facebook text-white" aria-hidden="true"></i></div>
-                                    <div class="bg-[#F85559] py-1 px-2 rounded-full"><i class="fa fa-twitter text-white"
+                                    <div class="bg-[#F85559] py-1 px-3 rounded-full cursor-pointer"><i
+                                                class="fa fa-facebook text-white " aria-hidden="true"></i></div>
+                                    <div class="bg-[#F85559] py-1 px-2 rounded-full cursor-pointer"><i class="fa fa-twitter text-white"
                                                 aria-hidden="true"></i></div>
-                                    <div class="bg-[#F85559] py-1 px-2.5 rounded-full"><i
+                                    <div class="bg-[#F85559] py-1 px-2.5 rounded-full cursor-pointer"><i
                                                 class="fa fa-instagram text-white" aria-hidden="true"></i></div>
                               </div>
                         </div>
@@ -366,11 +370,11 @@
                               <h1 class="text-white text-xl pt-3">Safia Chowdhury</h1>
                               <p class="text-white">Fruits Expert</p>
                               <div class="flex gap-2 justify-center py-3">
-                                    <div class="bg-[#F85559] py-1 px-3 rounded-full"><i
+                                    <div class="bg-[#F85559] py-1 px-3 rounded-full cursor-pointer"><i
                                                 class="fa fa-facebook text-white" aria-hidden="true"></i></div>
-                                    <div class="bg-[#F85559] py-1 px-2 rounded-full"><i class="fa fa-twitter text-white"
+                                    <div class="bg-[#F85559] py-1 px-2 rounded-full cursor-pointer"><i class="fa fa-twitter text-white"
                                                 aria-hidden="true"></i></div>
-                                    <div class="bg-[#F85559] py-1 px-2.5 rounded-full"><i
+                                    <div class="bg-[#F85559] py-1 px-2.5 rounded-full cursor-pointer"><i
                                                 class="fa fa-instagram text-white" aria-hidden="true"></i></div>
                               </div>
                         </div>
@@ -379,11 +383,11 @@
                               <h1 class="text-white text-xl pt-3">Rokib Hossain</h1>
                               <p class="text-white">Fruits Expert</p>
                               <div class="flex gap-2 justify-center py-3">
-                                    <div class="bg-[#F85559] py-1 px-3 rounded-full"><i
+                                    <div class="bg-[#F85559] py-1 px-3 rounded-full cursor-pointer"><i
                                                 class="fa fa-facebook text-white" aria-hidden="true"></i></div>
-                                    <div class="bg-[#F85559] py-1 px-2 rounded-full"><i class="fa fa-twitter text-white"
+                                    <div class="bg-[#F85559] py-1 px-2 rounded-full cursor-pointer"><i class="fa fa-twitter text-white"
                                                 aria-hidden="true"></i></div>
-                                    <div class="bg-[#F85559] py-1 px-2.5 rounded-full"><i
+                                    <div class="bg-[#F85559] py-1 px-2.5 rounded-full cursor-pointer"><i
                                                 class="fa fa-instagram text-white" aria-hidden="true"></i></div>
                               </div>
                         </div>
@@ -392,22 +396,23 @@
                               <h1 class="text-white text-xl pt-3">Chaity</h1>
                               <p class="text-white">Fruits Expert</p>
                               <div class="flex gap-2 justify-center py-3">
-                                    <div class="bg-[#F85559] py-1 px-3 rounded-full"><i
+                                    <div class="bg-[#F85559] py-1 px-3 rounded-full cursor-pointer"><i
                                                 class="fa fa-facebook text-white" aria-hidden="true"></i></div>
-                                    <div class="bg-[#F85559] py-1 px-2 rounded-full"><i class="fa fa-twitter text-white"
+                                    <div class="bg-[#F85559] py-1 px-2 rounded-full cursor-pointer"><i class="fa fa-twitter text-white"
                                                 aria-hidden="true"></i></div>
-                                    <div class="bg-[#F85559] py-1 px-2.5 rounded-full"><i
+                                    <div class="bg-[#F85559] py-1 px-2.5 rounded-full cursor-pointer"><i
                                                 class="fa fa-instagram text-white" aria-hidden="true"></i></div>
                               </div>
                         </div>
                   </div>
             </div>
       </section>
-      <!-- -----------choose us section----------- -->
+      <!-- --------------------------choose us section--------------------------- -->
+
       <section class="w-10/12 m-auto">
             <div class="text-center pt-20 pb-8">
                   <h1 class="text-4xl font-bold">Why Choose Us</h1>
-                  <p class="py-5 lg:px-56">Contrary to popular belief, is not simply random text. It has roots in a
+                  <p class="py-5 lg:px-56 primary-text-color">Contrary to popular belief, is not simply random text. It has roots in a
                         piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-10 pb-14">
@@ -420,7 +425,7 @@
                               <div>
                                     <h1 class=" text-xl font-bold inline border-b-2 pb-3">Dedicated Team</h1>
 
-                                    <p class="pt-6">Professional employees are there for you to pick the most amazing
+                                    <p class="pt-6 primary-text-color">Professional employees are there for you to pick the most amazing
                                           and fresh fruits.</p>
                               </div>
                         </div>
@@ -432,7 +437,7 @@
                               <div>
                                     <h1 class=" text-xl font-bold inline border-b-2 pb-3">Fresh is Best</h1>
 
-                                    <p class="pt-6">Professional employees are there for you to pick the most amazing
+                                    <p class="pt-6 primary-text-color">Professional employees are there for you to pick the most amazing
                                           and fresh fruits.</p>
                               </div>
                         </div>
@@ -444,7 +449,7 @@
                               <div>
                                     <h1 class=" text-xl font-bold inline border-b-2 pb-3">Gift Certificates</h1>
 
-                                    <p class="pt-6">Professional employees are there for you to pick the most amazing
+                                    <p class="pt-6 primary-text-color">Professional employees are there for you to pick the most amazing
                                           and fresh fruits.</p>
                               </div>
                         </div>
@@ -462,7 +467,7 @@
                               <div class="text-center lg:text-right">
                                     <h1 class=" text-xl font-bold inline border-b-2 pb-3">Integrated Supplier</h1>
 
-                                    <p class="pt-6">Professional employees are there for you to pick the most amazing
+                                    <p class="pt-6 primary-text-color">Professional employees are there for you to pick the most amazing
                                           and fresh fruits.</p>
                               </div>
                         </div>
@@ -474,7 +479,7 @@
                               <div class="text-center lg:text-right">
                                     <h1 class=" text-xl font-bold inline border-b-2 pb-3">Sustainable Practice</h1>
 
-                                    <p class="pt-6">Professional employees are there for you to pick the most amazing
+                                    <p class="pt-6 primary-text-color">Professional employees are there for you to pick the most amazing
                                           and fresh fruits.</p>
                               </div>
                         </div>
@@ -486,14 +491,15 @@
                               <div class="text-center lg:text-right">
                                     <h1 class=" text-xl font-bold inline border-b-2 pb-3">The Benefits Only</h1>
 
-                                    <p class="pt-6">Professional employees are there for you to pick the most amazing
+                                    <p class="pt-6 primary-text-color">Professional employees are there for you to pick the most amazing
                                           and fresh fruits.</p>
                               </div>
                         </div>
                   </div>
             </div>
       </section>
-      <!-- ---------------footer section--------------- -->
+      <!-- -----------------------------------footer section------------------------------------ -->
+
       <section>
             <div class="text-center text-white bg-black py-24">
                   <div class="flex items-center justify-center gap-5">
